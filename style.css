@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Essential to keep padding from breaking the width */
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    /* Deep blue to purple gradient from your screenshot */
+    background: linear-gradient(135deg, #153677, #4e085f);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: white;
+    width: 100%;
+    max-width: 540px;
+    margin: 100px auto 0;
+    padding: 40px 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.add-bar p{
+    display: none;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: red;
+}
+
+.add-bar h2 {
+    color: #002765;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+/* This creates the 'pilled' input look from the screenshot */
+.input-field {
+    display: flex;
+    align-items: center;
+    background-color: #edeef0;
+    /* The light gray bar */
+    border-radius: 40px;
+    padding-left: 20px;
+}
+
+.add-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    /* Makes the input blend into the gray bar */
+    padding: 15px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.add-btn {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: #ff5945;
+    /* The specific orange from the image */
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+    background: #e64e3d;
+}
+
+/* Task List Styling */
+.task-info {
+    margin-top: 30px;
+}
+
+.task {
+    list-style: none;
+}
+
+.task li {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #ff5945;
+    /* Matches the orange button */
+}
+
+.typed-thing {
+    flex: 1;
+    margin-left: 15px;
+    color: #555;
+    font-size: 17px;
+}
+
+.typed-thing
+
+.close {
+    width: 22px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.close:hover {
+    transform: scale(1.2);
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #888; /* Optional: makes the text look faded */
+}
