@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "It is backend for To-do Application",
+  "homepage": "https://github.com/abhijeetgorhe26/To-Do-List#readme",
+  "bugs": {
+    "url": "https://github.com/abhijeetgorhe26/To-Do-List/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijeetgorhe26/To-Do-List.git"
+  },
+  "license": "ISC",
+  "author": "Abhijeet Rajshree Sanjay Gorhe",
+  "type": "module",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js",
+    "dev": "nodemon script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
